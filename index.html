@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yêu cậu cá ^.^</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=88b721518ab043d8ed85c08b69ba1297">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+    <header class="text-center text-white bg-primary masthead">
+        <h2>Cậu yêu tớ có phải không 😙</h2>
+        <h4>Cậu không trả lời hoặc thoát ra, tức là cậu là vợ tớ đó nha :> </h4>
+        <br>
+        <br>
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" data-aos="zoom-in-up"
+                data-aos-duration="2450" src="assets/img/profile.png?h=ca1ddcee1cb057489d44a94e63b7fbc4">
+            <h3>HIHIHIHIHIHIHI</h3>
+        </div>
+        <div class="btn-toolbar d-flex justify-content-around">
+            <button id="love" class="btn btn-primary" type="button" onclick="plopsound.playclip()" style="background: rgb(215,67,112);">Có Yêu :3</button>
+            <button id="no-love" class="btn btn-primary" type="button" onclick="clicksound.playclip()" style="background: rgb(188,24,142);" >Không Yêu =.=</button>
+        </div>
+    </header>
+    <template id="my-template">
+        <swal-title>
+            Cậu đẹp lắm á ^.^
+        </swal-title>
+        <swal-button type="confirm" color="#db4b6f">
+            Yêu cậu cá !!!
+        </swal-button>
+        <swal-param name="allowEscapeKey" value="false" />
+        <swal-param name="customClass" value='{ "popup": "my-popup" }' />
+    </template>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js?h=9235bb0720203a55fcbfba2867b3f37e"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/js/sound.js"></script>
+    <script>
+        var love = document.getElementById("love");
+        var nolove = document.getElementById("no-love");
+        love.addEventListener("click", myFunction);
+        function myFunction() {
+            alert('Mình Biết Mà ahihi , quay lại nhắn tin tiếp hoy! ^.^');
+            location.href = "https://www.facebook.com/messages/t/100011538304172";
+        }
+        var nolove = document.getElementById("no-love");
+
+        nolove.addEventListener("click", function () {
+            var changeLeft = (Math.random() * ($(window).width() - $("button").width()));
+            $("button").css("margin-left", changeLeft + "px");
+        });
+    </script>
+    <script>
+        Swal.fire({
+            template: '#my-template',
+            imageUrl: 'assets/img/giphy (1).gif',
+            imageWidth: 400,
+            imageHeight: 200,
+            title: 'Cậu đẹp lắm á ^.^',
+            width: 600,
+            padding: '3em',
+            background: '#fff url(/images/trees.png)',
+            backdrop: `
+    rgba(0,0,123,0.4)
+    url("assets/img/love.gif")
+    left top
+    
+  `
+        })
+    </script>
+</body>
+<audio src="assets/sound/zzzz.mp3" autoplay></audio>
+
+</html>

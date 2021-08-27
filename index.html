@@ -403,6 +403,10 @@
       </div>
     </div><!-- End: 2 Rows 1+1 Columns -->
   </div><!-- Start: Footer Clean -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat"></div>
   <footer class="footer-clean"
     style="background: url(assets/img/222hand-drawn-colorful-science-education-wallpaper_23-2148489183.jpg?h=7bc1933ace2a03381cc413d309bb938a), #601ecc;background-size: cover, auto;">
     <div class="container">
@@ -448,6 +452,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.min.js?h=fb2ea545467e3dff75344b2539437c95"></script>
+  <!-- Messenger Plugin chat Code -->
+  <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112148761103783");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
 </body>
 
 </html>

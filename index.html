@@ -1,87 +1,453 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yêu cậu cá ^.^</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=88b721518ab043d8ed85c08b69ba1297">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Home - Brand</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=c83810548dbc5155b02c063ead9e222d">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/styles.min.css?h=ba1e854512bb857d9f5480d45d36baa7">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="assets/css/rotate.css">
 </head>
 
 <body>
-    <header class="text-center text-white bg-primary masthead">
-        <h2>Cậu yêu tớ có phải không 😙</h2>
-        <h4>Cậu không trả lời hoặc thoát ra, tức là cậu là vợ tớ đó nha :> </h4>
-        <br>
-        <br>
-        <div class="container"><img class="img-fluid d-block mx-auto mb-5" data-aos="zoom-in-up"
-                data-aos-duration="2450" src="assets/img/dz.JPG">
-            <h3>HIHIHIHIHIHIHI</h3>
-        </div>
-        <div class="btn-toolbar d-flex justify-content-around">
-            <button id="love" class="btn btn-primary" type="button" onclick="plopsound.playclip()" style="background: rgb(215,67,112);">Có Yêu :3</button>
-            <button id="no-love" class="btn btn-primary" type="button" onclick="clicksound.playclip()" style="background: rgb(188,24,142);" >Không Yêu =.=</button>
-        </div>
-    </header>
-    <template id="my-template">
-        <swal-title>
-            Cậu đẹp lắm á ^.^
-        </swal-title>
-        <swal-button type="confirm" color="#db4b6f">
-            Yêu cậu cá !!!
-        </swal-button>
-        <swal-param name="allowEscapeKey" value="false" />
-        <swal-param name="customClass" value='{ "popup": "my-popup" }' />
-    </template>
+  <!-- Start: Navigation Clean -->
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top"
+    style="box-shadow: 0px 2px 10px rgba(0,0,0,0.23);">
+    <div class="container"><img src="assets/img/math_n.jpg?h=60f7b804e3a9ea29a72f8f47ad426d75"
+        style="width: 5%;margin: 0px;"><button data-toggle="collapse" class="navbar-toggler"
+        data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navcol-1" style="font-size: 16px;color: #222222;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html"
+              style="filter: hue-rotate(0deg);color: #dd006d;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Trang
+              Chủ</a></li>
+          <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown"
+              href="#" style="color: #393d72;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Giới Thiệu</a>
+            <div class="dropdown-menu" style="border-radius: 20px;box-shadow: -1px -1px rgba(33,37,41,0.28);"><a
+                class="dropdown-item" href="gioithieu/doingugiaovien/index.html">Đội Ngũ Giáo Viên</a><a class="dropdown-item" href="#">Lời Ngỏ</a><a
+                class="dropdown-item" href="#">Môi Trường Chăm Sóc Và<br>Nuôi Dạy</a><a class="dropdown-item"
+                href="#">Tầm Nhìn Sứ Mệnh</a></div>
+          </li>
+          <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown"
+              href="#" style="color: #393d72;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Chương Trình Học</a>
+            <div class="dropdown-menu dropdown_menu-6"
+              style="border-radius: 20px;box-shadow: -1px 0px rgba(33,37,41,0.28);"><a class="dropdown-item" href="#">Tư
+                Vấn Giáo Dục</a><a class="dropdown-item" href="#">Phương Pháp Giáo Dục</a><a class="dropdown-item"
+                href="#">Chương Trình Giáo Dục</a></div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="tintuc/index.html"
+              style="color: #393d72;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Tin tức</a></li>
+          <li class="nav-item"><a class="nav-link " href="thuvien/index.html"
+              style="color: #393d72;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Thư viện</a></li>
+          <li class="nav-item"><a class="nav-link" href="lienhe/index.html" style="color: #393d72;font-family: 'Baloo Paaji', cursive;font-size: 18px;">Liên Hệ</a></li>
+        </ul>
+      </div>
     </div>
+  </nav><!-- End: Navigation Clean -->
+  <header class="masthead" style="background: rgb(240,252,255);margin-top: 0rem;margin-bottom: 0px;">
+    <!-- Start: 1 Row 2 Columns -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mt-auto">
+          <h2 style="font-family: Baloo Paaji;color: #393d72;"><br>Chào Mừng Đến Với Môi Trường Tốt Nhất
+            Dành Cho Bé<br></h2>
+          <h5 style="font-family: Baloo Paaji;color: #393d72;">Chào Mừng Đến Với Môi Trường Tốt Nhất Dành
+            Cho Bé<br></h5><button class="btn btn-primary" type="button"
+            style="margin-top: 1rem;margin-bottom: 1rem;font-size: 11px;font-family: Baloo Paaji;background: rgb(230,35,152);">Xem
+            Thêm</button>
+        </div>
+        <div class="col-md-6"><img src="assets/img/slider-img.png?h=b5870650c9fb3b225477c348ed973117" /></div>
+      </div>
+    </div><!-- End: 1 Row 2 Columns -->
+  </header>
+  <div>
+    <!-- Start: Team Boxed -->
+    <section class="team-boxed" style="background: rgb(238, 244, 247);">
+      <div class="container">
+        <!-- Start: People -->
+        <div class="row people" style="padding-bottom: 1rem;">
+          <div class="col-md-6 col-lg-4 col-xl-3 item" style="padding: 0px;padding-right: 15px;padding-left: 15px;">
+            <div class="box boxss" style="padding-top: 1px;"><img class="rounded-circle"
+                src="assets/img/1.jpg?h=2b439494a52449e70d3e160e94a5b097" style="margin-top: 10px;">
+              <h3 class="name" style="font-size: 22px;">Học Và Vui Vẻ</h3>
+              <p class="description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối
+                trí và cản trở việc tập trung vào yếu tố trình bày văn bản.<br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item" style="padding: 0px;padding-right: 15px;padding-left: 15px;">
+            <div class="box boxss" style="padding-top: 1px;"><img class="rounded-circle"
+                src="assets/img/2.jpg?h=a00395ba14beda9605af5a138260cc52" style="margin-top: 10px;">
+              <h3 class="name" style="font-size: 22px;">Học Và Vui Vẻ</h3>
+              <p class="description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối
+                trí và cản trở việc tập trung vào yếu tố trình bày văn bản.<br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item"
+            style="padding: 0px;padding-top: 0px;padding-left: 15px;padding-right: 15px;">
+            <div class="box boxss" style="padding-top: 1px;"><img class="rounded-circle"
+                src="assets/img/3.jpg?h=5cf82a410a3124b5c2ec0ee942eda167" style="margin-top: 10px;">
+              <h3 class="name" style="font-size: 22px;">Học Và Vui Vẻ</h3>
+              <p class="description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối
+                trí và cản trở việc tập trung vào yếu tố trình bày văn bản.<br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item" style="padding: 0px;padding-left: 15px;padding-right: 15px;">
+            <div class="box boxss" style="padding-top: 1px;"><img class="rounded-circle"
+                src="assets/img/3.jpg?h=5cf82a410a3124b5c2ec0ee942eda167" style="margin-top: 10px;">
+              <h3 class="name" style="font-size: 22px;">Học Và Vui Vẻ</h3>
+              <p class="description">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối
+                trí và cản trở việc tập trung vào yếu tố trình bày văn bản.<br></p>
+            </div>
+          </div>
+        </div><!-- End: People -->
+      </div>
+    </section><!-- End: Team Boxed -->
+  </div>
+  <div style="background: rgb(238,244,247);padding-bottom: 1.5rem;"><img id="loading" class="rotate"
+      src="assets/img/shape1.png?h=d09e488315b2beb2128673a169f16529"
+      style="width: 33px;height: 31px;margin-top: 0px;" /></div><!-- Start: 1 Row 2 Columns -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 style="color: #dd006d;font-size: 20px;font-family: Baloo Paaji;margin-top: 1.5rem;">Về Chúng
+          Tôi<br></h1>
+        <h2 style="color: #393d72;font-family: Baloo Paaji;">Hệ Thống Mầm Non Quốc Tế Mona<br></h2>
+        <p style="font-size: 18px;font-family: Baloo Paaji;">Lorem Ipsum chỉ đơn giản là một đoạn văn bản
+          giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản
+          chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau
+          để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào
+          tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi.<br></p><button class="btn btn-primary"
+          type="button"
+          style="margin-top: 1rem;margin-bottom: 1rem;font-size: 11px;font-family: Baloo Paaji;background: rgb(230,35,152);">Xem
+          Thêm</button>
+      </div>
+      <div class="col"><img src="assets/img/slider-img.png?h=b5870650c9fb3b225477c348ed973117" /></div>
+    </div>
+  </div><!-- End: 1 Row 2 Columns -->
+  <div>
+    <!-- Start: Team Boxed -->
+    <section class="team-boxed"
+      style="background: url(assets/img/watercolor-back-school-background-with-white-space_52683-41450.jpg?h=6a2bc91e914837c5a67e7f5f9927785c), rgb(238, 244, 247);padding-top: 2.5rem;background-size: cover, auto;">
+      <div class="container">
+        <h1 class="text-center"
+          style="font-size: 20px;color: #dd006d;font-family: Baloo Paaji;margin-bottom: 0px;">Đặc Trưng<br>
+        </h1>
+        <h1 class="text-center"
+          style="font-size: 32px;color: #393d72;font-family: Baloo Paaji;margin-top: 0px;">Các Chương Trình
+          Học<br></h1>
+        <hr><!-- Start: People -->
+        <div class="row people" style="padding-bottom: 1rem;padding-top: 0px;">
+          <div class="col-md-6 col-lg-4 col-xl-4 item" style="padding: 0px;padding-right: 15px;padding-left: 15px;">
+            <div data-bss-hover-animate="pulse" class="box" style="padding-top: 1px;border-radius: 20px;"><img
+                class="rounded-circle pulse animated" src="assets/img/2.jpg?h=a00395ba14beda9605af5a138260cc52"
+                style="margin-top: 10px;"><a href="#"><br>Chương Trình Giáo Dục<br><br></a>
+              <p class="description" style="margin-top: 0px;">Chương trình GIÁO DỤC SỚM 0 TUỔI gồm 8 lĩnh vực phát triển
+                toàn diện cho trẻ, được thiết kế dựa trên 56 chỉ số phát triển quan trọng nhằm xác định các mục tiêu học
+                tập cơ bản đối với trẻ nhỏ: lĩnh vực ngôn ngữ Tiếng Việt &amp; Tiếng Anh<br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 item" style="padding: 0px;padding-right: 15px;padding-left: 15px;">
+            <div class="box" style="padding-top: 1px;border-radius: 20px;"><img class="rounded-circle"
+                src="assets/img/2.jpg?h=a00395ba14beda9605af5a138260cc52" style="margin-top: 10px;"><a
+                href="#"><br>Chương Trình Giáo Dục<br><br></a>
+              <p class="description" style="margin-top: 0px;">Chương trình GIÁO DỤC SỚM 0 TUỔI gồm 8 lĩnh vực phát triển
+                toàn diện cho trẻ, được thiết kế dựa trên 56 chỉ số phát triển quan trọng nhằm xác định các mục tiêu học
+                tập cơ bản đối với trẻ nhỏ: lĩnh vực ngôn ngữ Tiếng Việt &amp; Tiếng Anh<br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 item" style="padding: 0px;padding-right: 15px;padding-left: 15px;">
+            <div class="box" style="padding-top: 1px;border-radius: 20px;"><img class="rounded-circle"
+                src="assets/img/2.jpg?h=a00395ba14beda9605af5a138260cc52" style="margin-top: 10px;"><a
+                href="#"><br>Chương Trình Giáo Dục<br><br></a>
+              <p class="description" style="margin-top: 0px;">Chương trình GIÁO DỤC SỚM 0 TUỔI gồm 8 lĩnh vực phát triển
+                toàn diện cho trẻ, được thiết kế dựa trên 56 chỉ số phát triển quan trọng nhằm xác định các mục tiêu học
+                tập cơ bản đối với trẻ nhỏ: lĩnh vực ngôn ngữ Tiếng Việt &amp; Tiếng Anh<br></p>
+            </div>
+          </div>
+        </div><!-- End: People -->
+      </div>
+    </section><!-- End: Team Boxed -->
+  </div><!-- Start: 2 Rows 1+1 Columns -->
+  <div class="container" style="margin-bottom: 5rem;">
+    <h1 class="text-center"
+      style="font-size: 20px;color: #dd006d;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 2.5rem;">
+      Đặc Trưng<br></h1>
+    <h1 class="text-center"
+      style="color: #393d72;font-size: 32px;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 0px;">
+      Phụ Huynh Nói Gì<br></h1><img style="margin-top: 0px;width: 67px;height: 5px;"
+      src="assets/img/title-border1.png?h=268bce428d1251cabb2b012121bbb665">
+    <div class="row" style="margin-top: 2rem;">
+      <div class="col-sm-6 col-md-5 col-lg-3 col-xl-2"><img
+          src="assets/img/law-document.jpeg?h=100b07f0baf654d156c86f7fe518b5dd"
+          style="border-radius: 45%;margin-top: 1rem;"></div>
+      <div class="col-sm-6 col-md-7 col-lg-9 col-xl-10" data-bss-hover-animate="jello">
+        <h1 class="text-center"
+          style="margin-bottom: 0px;font-size: 20px;font-family: Baloo Paaji;color: #dd006d;">Anh Nhựt
+          Tân.Thạc sỹ Nghệ Thuật,Nhà thiết kế thời trang<br>Phụ huynh bé Tâm<br></h1>
+        <p class="text-center"
+          style="margin-top: 0.5rem;font-size: 16px;color: #393d72;font-family: Baloo Paaji;">Chúng ta vẫn
+          biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+          tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm<br></p>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 2rem;">
+      <div class="col-sm-6 col-md-5 col-lg-3 col-xl-2"><img
+          src="assets/img/law-document.jpeg?h=100b07f0baf654d156c86f7fe518b5dd"
+          style="border-radius: 45%;margin-top: 1rem;"></div>
+      <div class="col-sm-6 col-md-7 col-lg-9 col-xl-10" data-bss-hover-animate="jello">
+        <h1 class="text-center"
+          style="margin-bottom: 0px;font-size: 20px;font-family: Baloo Paaji;color: #dd006d;">Anh Nhựt
+          Tân.Thạc sỹ Nghệ Thuật,Nhà thiết kế thời trang<br>Phụ huynh bé Tâm<br></h1>
+        <p class="text-center"
+          style="margin-top: 0.5rem;font-size: 16px;color: #393d72;font-family: Baloo Paaji;">Chúng ta vẫn
+          biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+          tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm<br></p>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 2rem;">
+      <div class="col-sm-6 col-md-5 col-lg-3 col-xl-2"><img
+          src="assets/img/law-document.jpeg?h=100b07f0baf654d156c86f7fe518b5dd"
+          style="border-radius: 45%;margin-top: 1rem;"></div>
+      <div class="col-sm-6 col-md-7 col-lg-9 col-xl-10" data-bss-hover-animate="jello">
+        <h1 class="text-center"
+          style="margin-bottom: 0px;font-size: 20px;font-family: Baloo Paaji;color: #dd006d;">Anh Nhựt
+          Tân.Thạc sỹ Nghệ Thuật,Nhà thiết kế thời trang<br>Phụ huynh bé Tâm<br></h1>
+        <p class="text-center"
+          style="margin-top: 0.5rem;font-size: 16px;color: #393d72;font-family: Baloo Paaji;">Chúng ta vẫn
+          biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu
+          tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm<br></p>
+      </div>
+    </div>
+  </div><!-- End: 2 Rows 1+1 Columns -->
+  <div
+    style="background: url(assets/img/222222istockphoto-519096331-1024x1024.jpg?h=47d335dd7ea7cddb45d511baf22bbe97), #5934aa;">
+    <!-- Start: 1 Row 1 Column -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center"
+            style="font-size: 20px;color: #ffffff;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 2.5rem;">
+            Thư Viện<br></h1>
+          <h1 class="text-center"
+            style="color: #ffffff;font-size: 32px;font-family: Baloo Paaji;margin-bottom: 0px;">Ảnh Hoạt
+            Động<br></h1><img style="margin-top: 0px;width: 67px;height: 5px;background: rgba(255,255,255,0);"
+            src="assets/img/title-border1.png?h=268bce428d1251cabb2b012121bbb665">
+        </div>
+        <div class="col-md-12" style="padding-top: 0.5rem;padding-bottom: 5rem;">
+          <!-- Start: Media Slider (Bootstrap 3) -->
+          <section class="site-media-slider" style="background: rgba(255,255,255,0);">
+            <div class="container media-slider">
+              <div class="row">
+                <div class="col-md-12">
+                  <div id="Carousel" class="carousel slide">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/script.min.js?h=9235bb0720203a55fcbfba2867b3f37e"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
-    <script src="assets/js/sound.js"></script>
-    <script>
-        var love = document.getElementById("love");
-        var nolove = document.getElementById("no-love");
-        love.addEventListener("click", myFunction);
-        function myFunction() {
-            alert('Mình Biết Mà ahihi , quay lại nhắn tin tiếp hoy! ^.^');
-            location.href = "https://www.facebook.com/messages/t/100011538304172";
-        }
-        var nolove = document.getElementById("no-love");
 
-        nolove.addEventListener("click", function () {
-            var changeLeft = (Math.random() * ($(window).width() - $("button").width()));
-            $("button").css("margin-left", changeLeft + "px");
-        });
-    </script>
-    <script>
-        Swal.fire({
-            template: '#my-template',
-            imageUrl: 'assets/img/giphy (1).gif',
-            imageWidth: 400,
-            imageHeight: 200,
-            title: 'Cậu đẹp lắm á ^.^',
-            width: 600,
-            padding: '3em',
-            background: '#fff url(/images/trees.png)',
-            backdrop: `
-    rgba(0,0,123,0.4)
-    url("assets/img/love.gif")
-    left top
-    
-  `
-        })
-    </script>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                      <div class="item active">
+                        <div class="row">
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/thanh-dien-1.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/images.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/tải-xuống-1.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/tải-xuống-2.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/tải-xuống-2.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                          <div class="col-md-2"><a href="#" class=""><img
+                                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/tải-xuống-2.jpg"
+                                alt="Image" style="max-width:100%;border-radius: 50%;"></a></div>
+                        </div>
+                        <!--.row-->
+                      </div>
+                      <!--.item-->
+
+                    </div>
+                    <!--.carousel-inner-->
+                    <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                    <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                  </div>
+                  <!--.Carousel-->
+
+                </div>
+              </div>
+            </div>
+          </section><!-- End: Media Slider (Bootstrap 3) -->
+        </div>
+      </div>
+    </div><!-- End: 1 Row 1 Column -->
+  </div><!-- Start: Features Boxed -->
+  <section class="features-boxed" style="margin-top: 0px;">
+    <div class="container">
+      <!-- Start: Features -->
+      <div class="row justify-content-center features" style="padding-bottom: 0px;padding-top: 0px;">
+        <div class="col-lg-12" style="padding-bottom: 2rem;">
+          <h1 class="text-center"
+            style="font-size: 20px;color: #dd006d;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 2.5rem;">
+            Đặc Trưng<br></h1>
+          <h1 class="text-center"
+            style="color: #393d72;font-size: 32px;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 0px;">
+            Các Buổi Học Cho Bé<br></h1><img style="margin-top: 0px;width: 67px;height: 5px;"
+            src="assets/img/title-border1.png?h=268bce428d1251cabb2b012121bbb665">
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 item">
+          <div data-bss-hover-animate="swing" class="box"
+            style="border-top-left-radius: 5rem;border-bottom-right-radius: 5rem;box-shadow: 0px 0px 3px 3px rgba(194,182,182,0.33);">
+            <h3 class="name" style="text-align: left;color: rgb(249,22,8);">Classic<br></h3>
+            <p class="description"
+              style="margin-bottom: 0.5rem;text-align: left;background: #ffffff;color: rgb(0,0,0);">Chúng ta vẫn biết
+              rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố
+              trình bày văn bản.<br></p><a class="learn-more" href="#"><br><strong>Xem Thêm &gt;</strong><br><br></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 item">
+          <div data-bss-hover-animate="swing" class="box"
+            style="border-top-left-radius: 5rem;border-bottom-right-radius: 5rem;box-shadow: 0px 0px 3px 3px rgba(194,182,182,0.33);">
+            <h3 class="name" style="text-align: left;color: rgb(249,22,8);">Classic<br></h3>
+            <p class="description"
+              style="margin-bottom: 0.5rem;text-align: left;background: #ffffff;color: rgb(0,0,0);">Chúng ta vẫn biết
+              rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố
+              trình bày văn bản.<br></p><a class="learn-more" href="#"><br><strong>Xem Thêm &gt;</strong><br><br></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 item">
+          <div data-bss-hover-animate="swing" class="box"
+            style="border-top-left-radius: 5rem;border-bottom-right-radius: 5rem;box-shadow: 0px 0px 3px 3px rgba(194,182,182,0.33);">
+            <h3 class="name" style="text-align: left;color: rgb(249,22,8);">Classic<br></h3>
+            <p class="description"
+              style="margin-bottom: 0.5rem;text-align: left;background: #ffffff;color: rgb(0,0,0);">Chúng ta vẫn biết
+              rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố
+              trình bày văn bản.<br></p><a class="learn-more" href="#"><br><strong>Xem Thêm &gt;</strong><br><br></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 item">
+          <div data-bss-hover-animate="swing" class="box"
+            style="border-top-left-radius: 5rem;border-bottom-right-radius: 5rem;box-shadow: 0px 0px 3px 3px rgba(194,182,182,0.33);">
+            <h3 class="name" style="text-align: left;color: rgb(249,22,8);">Classic<br></h3>
+            <p class="description"
+              style="margin-bottom: 0.5rem;text-align: left;background: #ffffff;color: rgb(0,0,0);">Chúng ta vẫn biết
+              rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố
+              trình bày văn bản.<br></p><a class="learn-more" href="#"><br><strong>Xem Thêm &gt;</strong><br><br></a>
+          </div>
+        </div>
+      </div><!-- End: Features -->
+    </div>
+  </section><!-- End: Features Boxed -->
+  <div>
+    <!-- Start: 2 Rows 1+1 Columns -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center"
+            style="font-size: 20px;color: #dd006d;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 2.5rem;">
+            Đặc Trưng<br></h1>
+          <h1 class="text-center"
+            style="color: #393d72;font-size: 32px;font-family: Baloo Paaji;margin-bottom: 0px;margin-top: 0px;">
+            Hệ Thống Trường Quốc Tế<br></h1><img style="margin-top: 0px;width: 67px;height: 5px;"
+            src="assets/img/title-border1.png?h=268bce428d1251cabb2b012121bbb665">
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 8rem;">
+        <div class="col-md-12">
+          <section class="customer-logos slider">
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/45494559_1457854767691493_3744270429007642624_n-1.jpg"
+                width="100%"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/BVU-01.png" width="100%">
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/HBU-01.png" width="100%">
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/ischool-01.png" width="100%">
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/saigon-academy-logo-dai-hoc-gia-dinh.png"
+                width="100%"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/saigon-academy-logo-dai-hoc-hoa-sen.png"
+                width="100%"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/saigon-academy-logo-iec.png"
+                width="100%"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/SGA-01.png" width="100%">
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/SNA.png" width="100%"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 slide"><img
+                src="http://mauweb.monamedia.net/saigonacademy/wp-content/uploads/2019/10/UKA-01.png" width="100%">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div><!-- End: 2 Rows 1+1 Columns -->
+  </div><!-- Start: Footer Clean -->
+  <footer class="footer-clean"
+    style="background: url(assets/img/222hand-drawn-colorful-science-education-wallpaper_23-2148489183.jpg?h=7bc1933ace2a03381cc413d309bb938a), #601ecc;background-size: cover, auto;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Start: Services -->
+        <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4 item">
+          <h3 style="font-family: Baloo Paaji;font-size: 20px;">Về chúng tôi<br></h3>
+          <p style="margin-top: 0px;font-family: Baloo Paaji;font-size: 16px;">Chúng ta vẫn biết rằng, làm
+            việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày
+            văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu "Nội dung, nội dung, nội dung"
+            là nó khiến văn bản giống thật hơn, bình thường hơn<br><br></p>
+        </div><!-- End: Services -->
+        <!-- Start: About -->
+        <div class="col-sm-4 col-md-3 col-xl-3 item">
+          <h3 style="font-family: Baloo Paaji;font-size: 20px;">Cơ sở chúng tôi<br></h3>
+          <ul>
+            <li style="font-size: 16px;font-family: Baloo Paaji;">319 C16 Lý Thường Kiệt, Phường 15, Quận
+              11, Tp.HCM<br></li>
+            <li style="font-size: 16px;font-family:Baloo Paaji;"><a href="tel:0769220162">076 922
+                0162</a><br></li>
+          </ul>
+        </div><!-- End: About -->
+        <!-- Start: Careers -->
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2 item">
+          <h3 style="font-size: 20px;font-family: Baloo Paaji;">Các lớp học<br></h3>
+          <ul>
+            <li style="font-size: 16px;"><a href="#" style="font-family: Baloo Paaji;">Năng Khiếu Vẽ<br></a>
+            </li>
+            <li><a href="#" style="font-family: Baloo Paaji;font-size: 16px;">Múa Đương Đại<br></a></li>
+            <li><a href="#" style="font-size: 16px;font-family: Baloo Paaji;">Thể Thao<br></a></li>
+            <li><a href="#" style="font-size: 16px;font-family: Baloo Paaji;">Múa Ba Lê<br></a></li>
+          </ul>
+        </div><!-- End: Careers -->
+        <!-- Start: Social Icons -->
+        <div class="col-lg-3 col-xl-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+            href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+              class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+          <p class="copyright" style="font-family: Baloo Paaji;font-size: 16px;">Company Name © 2021</p>
+        </div><!-- End: Social Icons -->
+      </div>
+    </div>
+  </footer><!-- End: Footer Clean -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.min.js?h=fb2ea545467e3dff75344b2539437c95"></script>
 </body>
-<audio src="assets/sound/zzzz.mp3" autoplay></audio>
 
 </html>

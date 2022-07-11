@@ -10,7 +10,8 @@ var config = {
         "Để em an nhiên vững tâm vào anh <3 !",
         "Còn nhiều điều muốn nói lắm í !!!",
         "Anh muốn nói thêm là ...",
-        "ANH YÊU EM, BÙI YẾN LINH <3 'xin pass FB ii :3'",
+        "Em muốn đi cùng anh chứ :",
+        "ANH YÊU EM, BÙI YẾN LINH <3",
     ],
 
     imgs: {

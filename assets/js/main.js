@@ -22,9 +22,9 @@ function frame() {
 	colors: colors,
   });
 
-  if (today.getSeconds() < today.getSeconds() + 1) {
+  
 	requestAnimationFrame(frame);
-  }
+  
 }
 (function($) {
 
